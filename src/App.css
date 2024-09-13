@@ -1,0 +1,76 @@
+.NavBar{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+}
+
+header{
+    font-size: 16px;
+    font-weight: 900;
+    font-style: oblique;
+    margin-left: 20px;
+}
+
+.NavBar .barre{
+    margin-left: 50px;
+    display: flex;
+}
+
+.NavBar .barre a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.search{
+    margin-right: 50px;
+    display: flex;
+}
+
+.search div {
+    padding: 1rem;
+}
+
+.liste-film{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.cardMovie{
+    border-radius: 20px;
+    background-color: rgb(255, 79, 48);
+    box-shadow: 1px 1px 5px #000 ;
+    width: 300px;
+    position: relative;
+}
+
+.cardMovie .imgCard{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardMovie .titre{
+    color: #fff;
+    font-style: normal;
+    padding: 0.7rem;
+}
+
+.cardMovie .description{
+    font-size: 15px;
+    color: #fff;
+    padding-inline: 0.5rem;
+}
+
+.cardMovie .note{
+    font-weight: 700;
+    color: #fff;
+    padding-inline: 0.5rem;
+}
+
+
+
